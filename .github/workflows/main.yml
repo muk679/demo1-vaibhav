@@ -14,6 +14,13 @@ jobs:
  
   runs-on: ubuntu-latest
  
+  env:
+    Name: "Vaibhav"
+
+  steps:
+  - name: Name is
+    run: echo ${{env.Name}}
+
   steps:
  
   - name: Checkout repository
